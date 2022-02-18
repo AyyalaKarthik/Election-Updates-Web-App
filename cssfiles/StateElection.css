@@ -1,0 +1,82 @@
+span {
+    color: red;
+}
+
+ /* Navbar Css Code  */
+
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div_a {
+    /* margin-top: 1420px; */
+    background-color: #fff424;
+    height: 50vh;
+}
+
+.div_a>h1 {
+    text-align: center
+}
+
+.div_a>p {
+    text-align: center;
+}
+
+
+
+/* CSS code for Recent Elections  */
+
+
+
+ .key_elec_highcharts_hm_pg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px solid red;
+}
+
+.tableClass1{
+    border: 2px solid black;
+    margin-right: 12vw;
+}
+
+/* CSS code for Section 3 Timers */
+
+#section_3{
+    margin-top: 40px;
+    /* background-color: red; */
+}
+
+#section_3 > hr{
+    height: 1.5px;
+    color: black;
+}
+.stateTimers{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.state{
+    width: 140px;
+    height: 100px;
+    background-color:#f7ea0082;
+    color: black;
+    border: 2px solid red;
+    margin: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.h1_3a{
+    color: #0b77d3;
+    text-align: center;
+}
+
+.state > a{
+    text-decoration: none;
+    color: black;
+    
+}

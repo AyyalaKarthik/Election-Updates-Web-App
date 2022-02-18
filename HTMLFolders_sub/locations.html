@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Elections Locations</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: #622a2a;
+    }
+
+    .h1_a {
+        padding-top: 10px;
+        text-align: center;
+        color: #fbf6f6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-left: 100px;
+        border-bottom: 0.1px solid #453886;
+        /* color: #453886; */
+        padding-bottom: .2em;
+        text-decoration: none;
+    }
+
+    .h1_a:hover {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+        background-position: bottom;
+        background-repeat: repeat-x;
+        color: red;
+        background-size: 2%;
+        border-bottom: 0;
+        padding-bottom: .3em;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <h1 class="h1_a">Upcoming State  Elections Locations</h1>
+    <!-- public token = pk.eyJ1Ijoia3V0aWNrayIsImEiOiJja3NsY3V3bmcwM3M3MzJwN29iaTVpeDdzIn0.ZOIWD1faGwJP4SPZ4KXZqQ -->
+    <div id='map' style='width: 100vw; height:100vh;'></div>
+</body>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia3V0aWNrayIsImEiOiJja3NsY3V3bmcwM3M3MzJwN29iaTVpeDdzIn0.ZOIWD1faGwJP4SPZ4KXZqQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [76.96, 20.56],
+        zoom: 4
+
+    });
+</script>
+
+
+<script src="../Jsfiles/locations.js"></script>
+
+</html>

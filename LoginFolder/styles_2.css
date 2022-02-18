@@ -1,0 +1,55 @@
+
+
+h1{
+    text-align: center;
+    /* color: purple; */
+    color: red;
+    font-size: 70px;
+}
+
+.logout{
+    display: block;
+    margin-left: 800px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.logout:hover{
+    color: white;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid black;
+    background-color: #c20a0a;
+    text-decoration: none;
+    height: 75px;
+    width: 243px;
+    font-size: 16px;
+
+
+}
+
+.buttontag{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: hsl(0, 84%, 51%);
+    color: white;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Vote.jpeg"); */
+    background-image: url("image_1.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}

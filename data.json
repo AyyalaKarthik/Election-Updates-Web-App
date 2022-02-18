@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "id": "0GJcws44NSPsDHAuxJhW_1",
+            "latitude": 15.2993,
+            "pop": 5827000,
+            "longitude": 74.1240,
+            "name": "Goa",
+            "country": "IN"
+
+        },
+        {
+            "id": "0GJcws44NSPsDHAuxJhW_2",
+            "latitude": 24.6637,
+            "pop": 5827000,
+            "longitude": 93.9063,
+            "name": "Manipur",
+            "country": "IN"
+
+        },
+        {
+            "id": "0GJcws44NSPsDHAuxJhW_3",
+            "latitude": 30.0668,
+            "pop": 5827000,
+            "longitude": 79.0193,
+            "name": "Uttarakhand",
+            "country": "IN"
+
+        },
+        {
+            "id": "0GJcws44NSPsDHAuxJhW_4",
+            "latitude": 31.1471,
+            "pop": 5827000,
+            "longitude": 75.3412,
+            "name": "Punjab",
+            "country": "IN"
+
+        },
+        {
+            "id": "0GJcws44NSPsDHAuxJhW_5",
+            "latitude": 26.8467,
+            "pop": 5827000,
+            "longitude": 80.9462,
+            "name": "Uttar Pradesh",
+            "country": "IN"
+
+        }
+ 
+    ]
+}
